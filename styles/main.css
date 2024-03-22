@@ -123,6 +123,38 @@ body{
   visibility: hidden;
 }
 
+.success{
+  width: 250px;
+  height: 280px;
+}
+
+#dissmis-massage{
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  text-align: center;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  padding: 15px;
+}
+
+#dissmis-massage:hover{
+  background-color: hsl(4, 100%, 67%);
+}
+
+.success p{
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.success img{
+  margin-bottom: 20px;
+  height: 50px;
+}
+
 @media only screen and (max-width: 700px){
   .container{
     padding: 0;
@@ -143,7 +175,7 @@ body{
   .sign-up-form{
     padding: 0;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     max-height: 150vh;
     border-radius: 0px;
@@ -157,6 +189,16 @@ body{
   .sign-up-form-heading{
     font-size: 30px;
     margin-bottom: 10px;
+  }
+
+  .success{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 25px;
+  height: 100vh;
+  width: 100%;
+  justify-content: space-between;
   }
 }
 
