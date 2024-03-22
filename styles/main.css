@@ -123,12 +123,39 @@ body{
   visibility: hidden;
 }
 
+@media only screen and (max-width: 700px){
+  .container{
+    padding: 0;
+    border-radius: 0;
+  }
 
+  .main-image-desktop{
+    display: none;
+    visibility: hidden;
+  }
 
-.for_color{
-  color: hsl(234, 29%, 20%);
-  color: hsl(235, 18%, 26%);
-  color: hsl(231, 7%, 60%);
-  color: hsl(0, 0%, 100%);
-  color: hsl(4, 100%, 67%);
+  .main-image-mobile{
+    width: 100%;
+    visibility: visible;
+    display: block;
+  }
+
+  .sign-up-form{
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 150vh;
+    border-radius: 0px;
+  }
+
+  .texts{
+    padding: 20px;
+    width: 100%;
+  }
+
+  .sign-up-form-heading{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
 }
