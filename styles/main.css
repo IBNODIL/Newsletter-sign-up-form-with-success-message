@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Roboto, sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(235, 18%, 26%);
+}
+
+.container{
+  padding: 25px;
+  border-radius: 25px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.sign-up-form{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 620px;
+  height: 380px;
+}
+
+.texts{
+  width: 50%;
+  height: 100%;
+  padding: 30px 20px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.sign-up-form-heading{
+  font-size: 40px;
+  color: hsl(234, 29%, 20%);
+}
+
+.sign-up-form-subtitle{
+  color: hsl(234, 29%, 20%);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.lists{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.list-item{
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item img{ 
+  height: 18px;
+  margin-right: 5px;
+}
+
+.list-item h6{
+  font-size: 12px;
+  color: hsl(234, 29%, 20%);
+  font-weight: 500;
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form span{
+  font-weight: 600;
+  font-size: 13px;
+}
+
+#sign-up-form-input{
+  outline-color: hsl(231, 7%, 60%);
+  border: 1px solid hsl(231, 7%, 60%);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 7px;
+  width: 100%;
+}
+
+#sign-up-form-submit{
+  padding: 15px;
+  width: 100%;
+  margin-top: 15px;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  text-align: center;
+  background-color: hsl(234, 29%, 20%);
+  margin-bottom: 30px;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+#sign-up-form-submit:hover{
+  background-color: hsl(4, 100%, 67%);
+}
+
+.main-image-desktop{
+  height: 100%;
+}
+
+.main-image-mobile{
+  display: none;
+  visibility: hidden;
+}
+
+
+
+.for_color{
+  color: hsl(234, 29%, 20%);
+  color: hsl(235, 18%, 26%);
+  color: hsl(231, 7%, 60%);
+  color: hsl(0, 0%, 100%);
+  color: hsl(4, 100%, 67%);
+}
